@@ -1,0 +1,38 @@
+.flash_msg {
+    position: relative;
+}
+.main_flash {
+    margin: 10px auto auto;
+    padding: 20px 20px 20px 60px;
+    color: #313131;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 7px 7px 14px 0 rgb(0 0 0 / 12%), 0 0 2px 0 rgb(0 0 0 / 10%);
+    background: rgb(255 255 255 / 90%);
+}
+.icon-flash {
+	width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 20px;
+}
+.bg_flash {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    z-index: -5;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    filter: blur(6px);
+    border-radius: 16px;
+    background: linear-gradient(45deg, rgb(54 136 251 / 62%), rgb(183 227 255 / 64%));
+}
+.success-flash {
+    background: linear-gradient(45deg, rgb(75 251 54 / 62%), rgb(183 227 255 / 64%)) !important;
+}
+.danger-flash {
+    background: linear-gradient(45deg, rgb(251 52 52), rgb(183 227 255 / 64%)) !important;
+}
