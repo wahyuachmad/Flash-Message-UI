@@ -1,3 +1,5 @@
+![Notif](https://raw.githubusercontent.com/wahyuachmad/Flash-Message-UI/main/notif.jpg)
+
 # Flash-Message-UI
 Simple Flash Message design UI
 
